@@ -44,7 +44,7 @@ const Schedule = () => {
               <motion.p
               variants={slideLeft(0.4)}
               initial="hidden"
-              animate="visible" className='text-xl text-orange-600 font-bold uppercase'>{item.title} </motion.p>
+              animate="visible" className='text-lg text-orange-600 font-semibold capitalize'>{item.title} </motion.p>
              <motion.p
               variants={slideLeft(0.6)}
               initial="hidden"
@@ -73,7 +73,7 @@ const Schedule = () => {
                <motion.p
               variants={slideRight(0.4)}
               initial="hidden"
-              animate="visible" className='text-xl text-orange-600 font-bold uppercase'>{item.title}   </motion.p>
+              animate="visible" className='text-lg text-orange-600 font-semibold capitalize'>{item.title}   </motion.p>
                 <motion.p
               variants={slideRight(0.6)}
               initial="hidden"

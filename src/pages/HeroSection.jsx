@@ -16,14 +16,14 @@ const HeroSection = () => {
               variants={slideRight(0.4)}
               initial="hidden"
               animate="visible"
-              className="text-orange-700 uppercase font-semibold text-lg">
+              className="text-orange-700 uppercase font-semibold text-xl">
                 100% Satisfaction Guarantee
               </motion.p>
               <motion.h1
               variants={slideRight(0.6)}
               initial="hidden"
               animate="visible"
-              className="text-5xl lg:text-6xl font-bold !leading-tight">
+              className="text-5xl lg:text-6xl font-bold leading-tight">
                 Find Your Perfect <span className="text-third">Tutor</span>
               </motion.h1>
               <motion.p

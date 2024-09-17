@@ -50,7 +50,7 @@ const Footer = () => {
             ))}
           </div>
         </div>
-        <div className='bg-gray-400 text-gray-800 h-12 p-6 flex justify-center items-center font-semibold'>@2024, E-Totor Application</div>
+        <div className='bg-gray-500/10 text-gray-800 h-12 p-6 flex justify-center items-center font-semibold'>@2024, E-Tutor Application</div>
       </section>
     </>
   );
