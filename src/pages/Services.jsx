@@ -41,9 +41,9 @@ const Services = () => {
   return (
     <div className="bg-[#f9fafc] py-24">
       <div className="container mx-auto">
-        <div className="max-w-[500px] p-6 text-center mx-auto mb-12 space-y-4">
-          <p className="font-bold text-2xl text-orange-700">Why Choose Us</p>
-          <h1 className="text-4xl font-bold leading-tight">Benefits of Online Tutoring Services with Us</h1>
+        <div className="max-w-[470px] p-6 text-center mx-auto mb-12 space-y-4">
+          <p className="font-semibold text-2xl text-orange-700 uppercase">Why Choose Us</p>
+          <h1 className="text-2xl font-semibold">Benefits of Online Tutoring Services with Us</h1>
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
@@ -58,7 +58,7 @@ const Services = () => {
                 <div className={`w-10 h-10 rounded-lg flex justify-center items-center text-white `} style={{backgroundColor: item.bgColor}}>
                   {item.icon}
                 </div>
-                <div className=" text-2xl">{item.title}</div>
+                <div className=" text-xl">{item.title}</div>
                 <p className="text-gray-500 text-sm ">{item.description}</p>
               </motion.div>
             );

@@ -38,7 +38,7 @@ const Subject = () => {
                 <div className={`w-10 h-10 rounded-md flex justify-center  items-center text-white `} style={{backgroundColor: item.color}}>
                  {item.icon}
                 </div>
-                <div className=" text-2xl text-gray-600">{item.name}</div>
+                <div className=" text-lg text-gray-600">{item.name}</div>
                
               </motion.div>
             );

@@ -24,11 +24,11 @@ const Footer = () => {
           <div className='grid grid-cols-1 md:grid-cols-4 gap-8'>
             {/* Logo and Description */}
             <div>
-              <div className='text-2xl flex items-center gap-2 font-bold uppercase'>
-                <MdComputer className="text-4xl text-secondary" />
+              <div className='text-xl flex items-center gap-2 font-bold uppercase'>
+                <MdComputer className="text-2xl text-secondary" />
                 <p className="text-primary">E-Tutor</p>
               </div>
-              <p className='text-gray-600 text-lg font-medium py-6'>
+              <p className='text-gray-600 text-md font-medium py-6'>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab placeat quaerat doloribus odit perferendis autem blanditiis, nihil pariatur iusto accusamus.
               </p>
             </div>
@@ -36,10 +36,10 @@ const Footer = () => {
             {/* Dynamic Link Sections */}
             {linkGroups.map((group, index) => (
               <div key={index}>
-                <h2 className='text-xl font-bold uppercase text-black'>
+                <h2 className='text-lg font-semibold uppercase text-black'>
                   {group.title}
                 </h2>
-                <ul className='mt-6 space-y-1 text-lg'>
+                <ul className='mt-6 space-y-1 text-md'>
                   {group.links.map((link, idx) => (
                     <li key={idx} className='hover:text-secondary text-gray-600 font-medium transition-colors duration-300'>
                       {link}

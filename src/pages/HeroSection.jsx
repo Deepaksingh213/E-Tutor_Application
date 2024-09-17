@@ -11,26 +11,26 @@ const HeroSection = () => {
         <div className="container grid grid-cols-1 md:grid-cols-2 min-h-[650px] relative">
           {/* Text Area */}
           <div className="flex flex-col justify-center py-14 md:pr-16 xl:pr-40 md:py-0 font-playfair md:order-1 order-2">
-            <div className="text-center md:text-left space-y-6">
+            <div className="text-center md:text-left space-y-4">
               <motion.p
               variants={slideRight(0.4)}
               initial="hidden"
               animate="visible"
-              className="text-orange-700 uppercase font-semibold text-xl">
+              className="text-orange-700 uppercase font-semibold text-lg">
                 100% Satisfaction Guarantee
               </motion.p>
               <motion.h1
               variants={slideRight(0.6)}
               initial="hidden"
               animate="visible"
-              className="text-5xl lg:text-7xl font-bold !leading-tight">
+              className="text-5xl lg:text-6xl font-bold !leading-tight">
                 Find Your Perfect <span className="text-third">Tutor</span>
               </motion.h1>
               <motion.p
                 variants={slideRight(0.8)}
                 initial="hidden"
                 animate="visible"
-              className="text-gray-600 xl:max-w-[500px] text-lg font-medium">
+              className="text-gray-600 xl:max-w-[500px] text-medium font-medium">
                 We help you find the perfect tutor for 1-on-1 lessons. It is
                 completely free and private.
               </motion.p>
