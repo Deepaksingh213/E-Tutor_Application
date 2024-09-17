@@ -6,7 +6,7 @@ import HeroSection from "./pages/HeroSection"
 import Schedule from "./pages/Schedule"
 import Services from "./pages/Services"
 import Testimonails from "./pages/Testimonails"
-import Subject from "./pages/subject"
+import Subject from "./pages/Subject";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 

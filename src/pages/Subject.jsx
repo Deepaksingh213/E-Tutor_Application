@@ -1,5 +1,5 @@
 import React from 'react'
-import { slideLeft, slideRight } from '../utility/animation';
+import { slideRight } from '../utility/animation';
 import { FaBook } from 'react-icons/fa';
 import {motion} from "framer-motion"
 
