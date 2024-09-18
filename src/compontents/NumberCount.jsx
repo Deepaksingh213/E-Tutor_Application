@@ -11,7 +11,7 @@ const NumberCount = () => {
   ];
 
   return (
-    <div className='bg-primary text-white py-12 mb-4'>
+    <div className='bg-primary text-white py-12 '>
       <div className='container grid grid-cols-2 md:grid-cols-4 gap-8'>
         {stats.map((stat, index) => (
           <div key={index} className='flex flex-col items-center justify-center '>

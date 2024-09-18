@@ -28,7 +28,7 @@ const bannerData1 = [
 const Schedule = () => {
   return (
     <>
-    <section className="bg-[#f9f9f9] mb-14">
+    <section className="bg-[#f9f9f9] ">
       <div className='container'>
         
           {bannerData.map((item, index) => (
